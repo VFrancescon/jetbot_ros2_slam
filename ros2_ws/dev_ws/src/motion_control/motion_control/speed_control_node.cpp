@@ -6,8 +6,8 @@ IS_LOCAL = os.getenv('IS_LOCAL', False)
 if not IS_LOCAL:
     from jetbot import Robot
 
-wheelbase = 0.10
-wheel_radius = 0.03
+double wheelbase = 0.10;
+double wheel_radius = 0.03;
 
 class SpeedController(Node):
     def __init__(self, port=8765):
