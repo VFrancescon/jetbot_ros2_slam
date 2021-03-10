@@ -20,7 +20,7 @@ Enable the Robot to create an Interrupt Request each time a change is detected b
 ## GPIO Usage
 C++ port of the Python GPIO Library from https://github.com/pjueon/JetsonGPIO
 **NOTE:** When using this library, always state pin numbers as Strings, the version of the input function that takes integers is bugged.
-![Jetson Board Pinout](images/jetson_nano_pinout)
+![Jetson Board Pinout](images/jetson_nano_pinout.png)
 
 ## I2C Usage
 Currently on hold. Library to be investigated.
