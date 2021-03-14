@@ -24,6 +24,7 @@ C++ port of the Python GPIO Library from https://github.com/pjueon/JetsonGPIO
 
 ## I2C Usage
 Currently on hold. Library to be investigated.
+Found a [low level i2c library for c++](https://github.com/amaork/libi2c), yet to be implemented. Seem to be encountering some errors with installation.
 
 ## ROS2 Usage
 Currently on hold, plan is to repurpose code from https://github.com/rosterloh/jetbot_ros2
