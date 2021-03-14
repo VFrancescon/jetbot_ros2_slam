@@ -32,5 +32,4 @@
 *.app
 
 # Directories
-JetsonGPIO/
 .idea/
