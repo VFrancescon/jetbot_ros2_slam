@@ -42,6 +42,9 @@ int main(){
                 cout << "Reading " << curr_value_A << " from pin ";
                 cout << input_pin_A << " tick number " << tick_no_A << "\n";
             }
+        if(tick_no_A % 10 == 0){
+            cout << "Distance covered on motor A " << double(tick_no_A) * (3*M_PI / 10) << "\n";
+        	}
         }
         if(curr_value_B != past_value_B){
             tick_no_B++;
@@ -49,13 +52,12 @@ int main(){
                 cout << "Reading " << curr_value_B << " from pin ";
                 cout << input_pin_B << " tick number " << tick_no_B << "\n";
             }
+            if(tick_no_B % 10 == 0){
+            cout << "Distance covered on motor B " << double(tick_no_B) * (3*M_PI / 10) << "\n";
+        	}
         }
-        if(tick_no_A % 10 == 0){
-            cout << "Distance covered on motor A " << double(tick_no_A) * (3*M_PI / 10);
-        }
-        if(tick_no_B % 10 == 0){
-            cout << "Distance covered on motor B " << double(tick_no_B) * (3*M_PI / 10);
-        }
+        
+        
         past_value_A = curr_value_A;
         past_value_B = curr_value_B;
     }
