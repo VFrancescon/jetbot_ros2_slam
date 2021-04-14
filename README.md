@@ -23,10 +23,17 @@ C++ port of the Python GPIO Library from https://github.com/pjueon/JetsonGPIO
 ![Jetson Board Pinout](images/jetson_nano_pinout.png)
 
 ## I2C Usage
-Currently on hold. Library to be investigated.
-Found a [low level i2c library for c++](https://github.com/amaork/libi2c), yet to be implemented. Seem to be encountering some errors with installation.
+Currently using smbus library. Files in i2c folder.
 
 ## ROS2 Usage
 Currently on hold, plan is to repurpose code from https://github.com/rosterloh/jetbot_ros2
 
+#Setup Guide:
+1. [Install JetsonGPIO](https://github.com/pjueon/JetsonGPIO)
+2. [Install ROS2](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html)
+3. Read all datasheets before beginning.
+4. Ensure smbus.c and smbus.h are included in the programs that use it.
+
 Author: Vittorio Francescon
+
+
