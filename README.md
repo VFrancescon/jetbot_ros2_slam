@@ -28,7 +28,7 @@ Currently using smbus library. Files in i2c folder.
 ## ROS2 Usage
 Currently on hold, plan is to repurpose code from https://github.com/rosterloh/jetbot_ros2
 
-#Setup Guide:
+# Setup Guide:
 1. [Install JetsonGPIO](https://github.com/pjueon/JetsonGPIO)
 2. [Install ROS2](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html)
 3. Read all datasheets before beginning.
